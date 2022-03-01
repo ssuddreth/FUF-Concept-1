@@ -1,0 +1,127 @@
+body {
+    font-family: 'Bebas Neue';
+}
+
+iframe {
+    margin: auto;
+    display: block;
+    top: 0px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(44, 43, 43);
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: firebrick;
+}
+
+.footer li {
+    display: inline-block;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.footer a {
+    color: firebrick;
+}
+
+.footer p {
+    color: gray;
+}
+
+.content {
+    margin-top: 75px;
+}
+
+#index-bod {
+    background-image: url('../images/FUF2-44.jpg');
+    background-size: 100%;
+    height: auto;
+}
+
+#h1-home {
+    font-size: 60px;
+    text-align: center;
+    color: firebrick;
+    margin: 0px;
+}
+
+#h1-home img {
+    width: 175px;
+    height: auto;
+    margin: 0px;
+}
+
+#gallery-bod {
+    background-image: url('../images/HOME.jpg');
+    background-size: cover;
+}
+
+#gallery-header {
+    margin-top: 75px;
+}
+
+#gallery-header h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+#images img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid transparent;
+    border-color: firebrick;
+    padding: 15px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: firebrick;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(221, 47, 47);
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: rgb(109, 126, 80);
+    padding: 20px;
+  }
+
+  #contact {
+      background-image: url('../images/CONTACT.jpg');
+      background-size: cover;
+  }
+
+  #contact-h1 {
+    margin-top: 75px;
+  }
