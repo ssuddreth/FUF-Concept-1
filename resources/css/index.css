@@ -6,6 +6,7 @@ iframe {
     margin: auto;
     display: block;
     top: 0px;
+    max-width: 100%;
 }
 
 .navbar {
@@ -45,7 +46,8 @@ iframe {
 
 #index-bod {
     background-image: url('../images/FUF2-44.jpg');
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: auto;
 }
 
